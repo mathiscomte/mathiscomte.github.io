@@ -3,14 +3,13 @@ body {
 }
 div {
    font-family: calibri
-h1 {
-  color:red;
-  font-size:20px;
-  text-align: center
-  margin-left:20px
-}
-p {
-  margin:10px
-  font-size:150%
-}
+  h1 {
+    color:red;
+    font-size:20px;
+    text-align: center
+  }
+  p {
+    margin:10px
+    font-size:150%
+  }
 }
