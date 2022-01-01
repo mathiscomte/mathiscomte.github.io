@@ -4,28 +4,32 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <ul id="navbar">
-            <li class="li"><a href="index.html"><img src="house.png"/ class="img20px">&nbsp;  Accueil</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Intel / AMD</a>
-                <div class="dropdown-content">
-                    <a href="page2.html">Intel</a>
-                    <a href="page3.html">AMD</a>
+        <div id="nav">
+            <ul id="navbar">
+                <li class="li"><a href="index.html"><img src="house.png"/ class="img20px">&nbsp;  Accueil</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Intel / AMD</a>
+                    <div class="dropdown-content">
+                        <a href="page2.html">Intel</a>
+                        <a href="page3.html">AMD</a>
                     
-                </div>                    
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Les processeurs</a>
-                <div class="dropdown-content">
-                    <a href="page5.html">Les cœurs dans un processeur</a>
-                    <a href="page6.html">Le processeur RISC</a>
-                    <a href="page7.html">Le processeur ARM</a>
-                    <a href="page8.html">La mémoire cache</a>
-                </div>                   
-            </li> 
-            <li class="li"><a href="page4.html">Conclusion</a></li>
-            <li class="li"><a href="page9.html">Contact</a></li>
-        </ul>
+                    </div>                    
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Les processeurs</a>
+                    <div class="dropdown-content">
+                        <a href="page5.html">Les cœurs dans un processeur</a>
+                        <a href="page6.html">Le processeur RISC</a>
+                        <a href="page7.html">Le processeur ARM</a>
+                        <a href="page8.html">La mémoire cache</a>
+                    </div>                   
+                </li>   
+                <li class="li"><a href="page4.html">Conclusion</a></li>
+                <li class="li"><a href="page9.html">Contact</a></li>
+            </ul>
+        </div>
+        <br/>
+        <div class="page">
         <h1>La mémoire cache</h1>
         <div>
             <p>La mémoire cache est une mémoire plus rapide et plus petite que la mémoire vive, installée près du processeur. Elle permet d'enregistrer temporairement des données utilisées régulièrement par le processeur, afin d’en faciliter l’accès par ce dernier.</p>
@@ -38,8 +42,11 @@
                     <li>La mémoire cache de niveau 3 ou L3 est moins rapide que les L1 et L2 mais dotée d'une plus grande capacité. Elle permet d’améliorer les performances des L1 et L2, notamment dans les processeurs à architecture multicoeur. Chaque coeur est doté de ses propres mémoires cache L1 et L2 tandis que la L3 est mise en commun.</li>
                 </ul>
                 Exemple : structure du AMD Phenom II Deneb
+                <br/>
+                <br/>
                 <div class="center"><img class="img300px" src="m%C3%A9moire%20cache.svg" alt="Phenom II Deneb"/></div>
             </div>
-        </div>        
+        </div>
+        </div>
     </body>    
 </html>
