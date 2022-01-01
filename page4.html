@@ -1,33 +1,80 @@
 <html>
     <head>
-        <title>Page de test 4 | CSS</title>    
+        <title>Conclusion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <ul id="navbar">
-            <li class="li"><a href="index.html">Accueil</a></li>
+            <li class="li"><a href="index.html"><img src="house.png"/ class="img20px">&nbsp;  Accueil</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Intel / AMD</a>
                 <div class="dropdown-content">
                     <a href="page2.html">Intel</a>
                     <a href="page3.html">AMD</a>
+                    
                 </div>                    
             </li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Processeurs</a>
+                <a href="javascript:void(0)" class="dropbtn">Les processeurs</a>
                 <div class="dropdown-content">
-                    <a href="page4.html">Page 4</a>
-                    <a href="page5.html">Page 5</a>
-                </div>                    
-            </li>
-            
-        </ul>
-        <h1>Page de test : CSS</h1>
+                    <a href="page5.html">Les cœurs dans un processeur</a>
+                    <a href="page6.html">Le processeur RISC</a>
+                    <a href="page7.html">Le processeur ARM</a>
+                    <a href="page8.html">La mémoire cache</a>
+                </div>                   
+            </li> 
+            <li class="li"><a href="page4.html">Conclusion</a></li>
+            <li class="li"><a href="page9.html">Contact</a></li>
+        </ul>      
         <div>
-            <p class="important">Voici un texte important</p>
-            <p>Celui-ci est moins important</p>
-            <p class="important">Un autre texte important</p>
-        </div>
-        <div id="boite">Contenu de la boîte</div>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-    </body>       
+            <h1>
+                Conclusion : Quel processeur choisir ?
+            </h1>
+            <div class="center"><img class="img200px" src="processeur2.png" alt="processeur"/></div>
+            <p>
+                Chaque processeur présente ses propres avantages et inconvénients :
+                            
+            </p>
+            <ul>
+                <li class="img"><img class="img150px" src="Intel_logo.png" alt="Logo Intel"></li>
+                <ul>
+                        <li class="av">+ Meilleures performances graphiques</li>
+                        <li class="av">+ Vitesse de calcul plus élevée</li>
+                        <li class="inc">- Prix élevé</li>
+                    </ul>
+                <br>
+                <li class="img"><img class="img150px" src="AMD_Logo.png" alt="Logo AMD"></li>
+                <ul>
+                        <li class="av">+ Bon rapport qualité-prix</li>
+                        <li class="av">+ Puissance, rapidité, efficacité</li>
+                        <li class="inc">- En retrait par rapport au haut de gamme Intel</li>
+                </ul>
+            </ul>
+            <p>Le choix du processeur s'effectue donc en fonction de l'usage que l'on fait de notre ordinateur :</p>
+            <table id="recap">
+                <tr>
+                    <td>Usage</td>
+                    <td class="center">AMD</td>
+                    <td class="center">Intel</td>
+                </tr>
+                <tr>
+                    <td>Bureautique</td>
+                    <td class="center">X</td>
+                    <td class="center"></td>
+                </tr>
+                <tr>
+                    <td>Jeux vidéos, montage vidéo</td>
+                    <td class="center">X</td>
+                    <td class="center">X</td>
+                </tr>
+                <tr>
+                    <td>Rendu 3D, gaming</td>
+                    <td class="center"></td>
+                    <td class="center">X</td>
+                </tr>
+            </table>
+        </div>        
+    </body>
 </html>

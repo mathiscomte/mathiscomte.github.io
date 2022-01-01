@@ -26,21 +26,20 @@
             <li class="li"><a href="page4.html">Conclusion</a></li>
             <li class="li"><a href="page9.html">Contact</a></li>
         </ul>
+        <h1>La mémoire cache</h1>
         <div>
-            <h1>Le processeur RISC</h1>
-            <div>L'architecture RISC (Reduced Instruction Set Computer) est une architecture de processeur qui remonte aux années 1970. Le principe est d'utiliser un jeu d’instructions simples et de même taille, et n’accéder à la mémoire que pour charger et décharger les registres (niveau de mémoire avant la mémoire cache).<br/><br/>
-            Cette architecture a plusieurs avantages :
+            <p>La mémoire cache est une mémoire plus rapide et plus petite que la mémoire vive, installée près du processeur. Elle permet d'enregistrer temporairement des données utilisées régulièrement par le processeur, afin d’en faciliter l’accès par ce dernier.</p>
+            <div>La mémoire cache est organisée en 3 niveaux:
                 <ul>
-                    <li>Rapidité de décodage et d’exécution</li>
-                    <li>Simplification de la gestion de la mémoire</li>
-                    <li>Accroissement des performances du système informatique</li>
+                    <li>La mémoire cache de niveau 1 ou L1 est intégrée au processeur. Elle est très rapide mais a une faible capacité de stockage.</li>
+                    <br>
+                    <li> La mémoire cache de niveau 2 ou L2 bénéficie d'une capacité plus importante que la L1. Elle peut être intégrée soit au processeur, soit sur la carte-mère avec une liaison haute vitesse.</li>
+                    <br>
+                    <li>La mémoire cache de niveau 3 ou L3 est moins rapide que les L1 et L2 mais dotée d'une plus grande capacité. Elle permet d’améliorer les performances des L1 et L2, notamment dans les processeurs à architecture multicoeur. Chaque coeur est doté de ses propres mémoires cache L1 et L2 tandis que la L3 est mise en commun.</li>
                 </ul>
-            Exemple : processeur HP RISC 7150
-                <br/>
-                <br/>
-                <div class="center"><img class="img200px" src="HP_PA_RISC.jpg" alt="processeur HP RISC 7150"/></div>            
+                Exemple : structure du AMD Phenom II Deneb
+                <div class="center"><img class="img300px" src="m%C3%A9moire%20cache.svg" alt="Phenom II Deneb"/></div>
             </div>
         </div>        
     </body>    
 </html>
-      

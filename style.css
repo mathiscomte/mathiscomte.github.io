@@ -10,17 +10,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 850px;
     padding: 0em 2em 4em;
 }
 h1 {  
-  color:darkblue;
+  color:#1C8ADB;
   font-size:50px;
   text-align: center     
 }
+div {
+    font-size: 20px
+}
 p {
-  margin:50px;
-  font-size:30px
+  font-size:20px
 }
 .table {
     width: 100% ; 
@@ -30,33 +32,29 @@ p {
 td {
     width: 25% ; 
     border: 1px black solid ;
-    text-align: left
+    text-align: left;
+    padding: 5px 
+}
+.col1 {
+    width: 10%; 
+    font-weight: bold
 }
 th {
     width: 25% ; 
     border: 1px black solid;
     text-align: center ;   
 }
-#menu{
-     font-family:calibri;
-}
-#menu>ul>li{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: aqua;
-    margin: 5px;
-    width: 70px;
-    text-align:center;
-}
+
 #navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+   
 }
 
-.li {
+.li, .dropdown {
   float: left;
 }
 .li a, .dropbtn {
@@ -65,6 +63,7 @@ th {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 20px
 }
 .li a:hover, .dropdown:hover .dropbtn {
   background-color: #111;
@@ -96,10 +95,44 @@ li.dropdown {
   display: block;
 }
 
+.av {
+    color: limegreen;
+    list-style-type: none    
+}
+.inc {
+    color: red;
+    list-style-type: none
+}
+.img200px {
+    width: 200px;      
+}
+.img300px {
+    width: 300px;      
+}
+
+.center {
+    text-align: center
+}
 
 
-
-
-.col1 {
-    width: 10%;    
+#recap {
+    width: 70% ; 
+    border: 1px black solid ; 
+    border-collapse: collapse ;
+    margin: auto;
+    font-size: 20px
+}
+.img450px {
+    width: 450px
+}
+.img150px {
+    width: 150px;
+    list-style-image: none
+    
+}        
+.img20px {
+    width: 20px
+}
+.img {
+    list-style-type: none
 }

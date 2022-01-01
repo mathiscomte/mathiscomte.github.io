@@ -1,32 +1,48 @@
 <html>
     <head>
-        <title>Page 5</title>
+        <title>Les coeurs dans un processeur</title>        
+        <link href="style.css" rel="stylesheet" type="text/css"/>    
     </head>
     <body>
         <ul id="navbar">
-            <li class="li"><a href="index.html">Accueil</a></li>
+            <li class="li"><a href="index.html"><img src="house.png"/ class="img20px">&nbsp;  Accueil</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Intel / AMD</a>
                 <div class="dropdown-content">
                     <a href="page2.html">Intel</a>
                     <a href="page3.html">AMD</a>
+                    
                 </div>                    
             </li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Processeurs</a>
+                <a href="javascript:void(0)" class="dropbtn">Les processeurs</a>
                 <div class="dropdown-content">
-                    <a href="page4.html">Page 4</a>
-                    <a href="page5.html">Page 5</a>
-                </div>                    
-            </li>
-            
+                    <a href="page5.html">Les cœurs dans un processeur</a>
+                    <a href="page6.html">Le processeur RISC</a>
+                    <a href="page7.html">Le processeur ARM</a>
+                    <a href="page8.html">La mémoire cache</a>
+                </div>                   
+            </li> 
+            <li class="li"><a href="page4.html">Conclusion</a></li>
+            <li class="li"><a href="page9.html">Contact</a></li>
         </ul>
-        <div class="div1">
-            <h1>Voici un premier titre</h1>
-            <div>Voici un premier paragraphe</div>
+        <h1>Les cœurs dans un  processeur</h1>
+        <div>
+            <h2>Le rôle du nombre de cœurs</h2>
+            <p>Les processeurs actuels sont constitués de plusieurs coeurs               . Ces cœurs servent à exécuter des instructions, c'est-à-dire les tâches que l'on demande au processeur. Chaque cœur ne peut exécuter qu'une seule instruction à la fois. Selon le nombre de cœurs, un processeur est dit :</p>
+                <ul>
+                    <li>Dual-core s'il possède 2 cœurs</li>
+                    <li>Quad-core s'il possède 4 cœurs</li>
+                    <li>Hexa-core s'il possède 6 cœurs</li>
+                    <li>Octo-core s'il possède 8 cœurs</li>
+                </ul>
+            <p>Avoir plusieurs cœurs permet au processeur d'exécuter plusieurs tâches à la fois, et donc d'accélérer sa vitesse de calcul.</p>
+            <p>Exemple : processeur AMD Opteron quad-core</p>
+            <div class="center"><img class="img200px" src="Quad-Core_AMD_Opteron_processor.jpg" alt="processeur AMD Opteron"/><br/>Advanced Micro Devices, Inc. (AMD)</div>
+            <h2>Le nombre de threads</h2>
+            <p>Un thread est une séquence d'instructions (processus) exécutée par le processeur. Avant l’arrivée des technologies de multi-threading (Hyperthreading pour Intel et SMT pour AMD), un cœur était attaché à un thread. Ainsi, un cœur ne peut s’occuper que d’une « tâche » à la fois. <br>Le multi-threading permet cependant aux cœurs d'exécuter 2 processus simultanément. Cette optimisation du travail de chaque cœur offre donc un gain de performance.
+                
+            </p>
         </div>
-        
-    </body>
-    <link href="stylepage5.css" rel="stylesheet" type="text/css">
+    </body>       
 </html>
-      
